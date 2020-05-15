@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mibp Projekat</title>
+    <link rel="stylesheet" type="text/css" href="./Resources/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  </head>
+  <body id ="bg">
+
+    <script src="./main.js" charset="utf-8"></script>
+
+
+    <div class="form-container">
+        <div class="inputForm">
+            <form style="padding: 2%;">
+                <div class="form-group">
+                  <label for="inputVideoUrl" class="px-3">Video URL</label>
+                  <input class="form-control" id="videoUrl" placeholder="Video URL">
+                </div>
+                <div class="form-group">
+                    <label for="inputVideoTitle" class="px-3">Video Title</label>
+                    <input class="form-control" id="videoTitle" placeholder="Video Title">
+                </div>
+                <div class="form-group">
+                    <label for="inputVideoTitle" class="px-3">Video Description</label>
+                    <input class="form-control" id="videoTitle" placeholder="Video Title">
+                </div>
+                <div class="form-group">
+                  <label for="inputAuthor" class="px-3">Video Author</label>
+                  <input class="form-control" id="videoAuthor" placeholder="Video Author">
+                </div>
+                <div class="text-center">
+                    <div onclick="sendNewVideoRequest()" class="align-center btn btn-primary">Upload</div>
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>

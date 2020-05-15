@@ -1,0 +1,60 @@
+#bg
+{
+    background-image: url("./dark_honeycomb.png");
+    min-height: 100%;
+}
+
+.bdy
+{
+    height: 100%;
+}
+
+.semiTransparent{
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .7;
+}
+
+#newVideoBtn{
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .2;
+    padding: 0px 10px;
+    
+}
+a:hover{
+    text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.form-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputForm {
+  background-color:rgba(245, 245, 245, 0.4);
+  border-radius: 25px;
+  width: 30%    ;
+  min-height: 10%;
+}
+
+.mainDisplay {
+    background-color:rgba(245, 245, 245, 0.4);
+    border-radius: 25px;
+    width: 30%    ;
+    min-height: 10%;
+  }
+
+.fa-thumbs-down:hover {
+    color: red;
+    opacity: 0.8;
+}
+.fa-thumbs-up:hover {
+  color: blue;
+  opacity: 0.8;
+}
